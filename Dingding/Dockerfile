@@ -24,4 +24,4 @@ CMD echo "----end----"
 # 配置容器启动后执行的命令
 ENTRYPOINT ["python3"]
 
-CMD ["app/lemumsg_api.py"]
+CMD ["app/main.py"]
