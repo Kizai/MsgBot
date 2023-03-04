@@ -24,7 +24,6 @@ logging.basicConfig(filename=log_path, filemode='a+', level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(filename)s %(funcName)s %(lineno)d %(message)s',
                     datefmt="%Y-%m-%d %H:%M:%S")
 
-
 config_path = os.path.join(os.path.dirname(__file__), "config.json")
 
 # 读取配置文件
@@ -157,4 +156,3 @@ def dingbot_link():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=config['port'], debug=True)
-

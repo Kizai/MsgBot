@@ -1,7 +1,7 @@
 {
     "ws": {
-        "webhook": "https://oapi.dingtalk.com/robot/send?access_token=1d473c599cc86ef0530591e95db3b75bc39611914e3d0a8dac95cb2b37cf30xx",
-        "secret": "SEC0b590e2a5459e3d2a158b2bb1bd8d55161a77077e446ce4821e7c5e26a945exx"
+        "webhook": "https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxx",
+        "secret": "SEC1212b0bd243a82b259b87344407dfb05ed29f674e9c0b3eb491xxxxxx"
     },
     "msg": {
         "0": "Request successful",
